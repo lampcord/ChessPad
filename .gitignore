@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+ChessPhone/.vs/
+ChessPhone/Debug
+ChessPhone/ChessPhone/Debug
+ChessPhone/ChessPhone/x64
+
+*.pdb
