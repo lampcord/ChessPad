@@ -51,7 +51,8 @@ namespace MoveMapper
 			if (piece.isValidStartingPosition(pad.SymbolToCoord(mtuple.first)))
 			{
 				fast_queue_count++;
-				fast_queue[fast_queue_count - 1] = counter{ 1, mtuple.first };
+				fast_queue[fast_queue_count - 1].count = 1;
+				fast_queue[fast_queue_count - 1].lastchar = mtuple.first;
 			}
 		}
 
